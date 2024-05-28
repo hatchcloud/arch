@@ -7,7 +7,7 @@ const CompanyIcon = () => {
     const [showSecond, setShowSecond] = useState(false);
 
     return (
-        <motion.div className="flex flex-col pointer-events-none md:flex-row gap-6 items-center justify-center top-0 bg-[#0d0f15] h-full w-full fixed z-20"
+        <motion.div className="flex flex-col pointer-events-none md:flex-row gap-6 items-center justify-center top-0 bg-[#323bff] h-full w-full fixed z-20"
                 initial={{  opacity: 1 }}
                 animate={{ opacity: 0 }}
                 transition={{ duration: 0.5, delay: 1.5 }}

@@ -26,7 +26,7 @@ export default function Home() {
 
 
   return (
-    <main ref={container} className=" flex flex-col items-center justify-center bg-slate-900 min-h-svh ">
+    <main ref={container} className=" flex flex-col items-center justify-center bg-[#323bff] min-h-svh ">
       <CompanyIcon />
       <section className=" h-[200vh] w-full ">
         <SectionImageHero scrollYProgress={scrollYProgress} />

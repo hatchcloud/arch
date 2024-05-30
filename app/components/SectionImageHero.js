@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import Link from "next/link";
-import HeroImg from '../../public/projects/hero.png'
+import HeroImg from '../../public/projects/pixelcut-export.jpeg'
 import Logo from '../../public/icon-complete.svg'
 import { useTransform, motion } from "framer-motion";
 
@@ -20,7 +20,7 @@ const SectionImageHero = ({scrollYProgress}) => {
             />
         </div>
         <div className="flex gap-4 w-full h-full absolute z-40">
-            <nav className=" p-10 gap-4 flex flex-col h-fit md:flex-row justify-between w-full items-center">
+            <nav className=" p-10 gap-4 flex flex-col h-fit md:flex-row justify-between w-full items-center md:items-start ">
                 <Link href={'/'} className="w-40 md:w-80">
                     <Image 
                     className="object-cover"
@@ -31,9 +31,9 @@ const SectionImageHero = ({scrollYProgress}) => {
                     />
                 </Link>
 
-                <ul className=" text-base md:text-xl text-white font-medium flex gap-0 md:gap-6 bg-[#323bff]/60 rounded-md p-2 h-fit">
+                <ul className=" text-base md:text-xl text-[#051746] font-medium flex gap-0 md:gap-6 rounded-lg px-2 h-fit">
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-[#323bff]/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Services</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Services</div>
                     </button>
@@ -41,13 +41,13 @@ const SectionImageHero = ({scrollYProgress}) => {
  */}                        
                     </li>
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-[#323bff]/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Projects</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Projects</div>
                     </button>
                     </li>
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-[#323bff]/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Contact</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Contact</div>
                     </button>

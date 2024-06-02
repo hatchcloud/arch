@@ -31,7 +31,7 @@ const SectionImageHero = ({scrollYProgress}) => {
                     />
                 </Link>
 
-                <ul className=" text-base md:text-xl text-[#051746] font-medium flex gap-0 md:gap-6 rounded-lg px-2 h-fit">
+                <ul className=" text-base md:text-xl text-[#0156cf] font-medium flex gap-0 md:gap-6 rounded-lg px-2 h-fit">
                     <li>
                     <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Services</div>

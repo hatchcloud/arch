@@ -37,7 +37,7 @@ const Slide = ({text , left, progress, direction}) => {
 
 const Phrase = ({ text }) => {
   return (
-    <div className={"px-5 flex gap-5 items-center font-extralight"}>
+    <div className={"px-5 flex gap-5 items-center font-extralight text-gray-50 "}>
       <p className="text-[7.5vw]">{text}</p>
     </div>
   );

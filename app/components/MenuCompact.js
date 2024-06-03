@@ -50,7 +50,7 @@ const slideIn = {
       translateX: 0,
       transition: {
           duration: 0.35, 
-          delay: 0.4 + (i * 0.1), 
+          delay: 0.4 + (i * 0.15), 
           ease: [.215,.61,.355,1],
           opacity: { duration: 0.1 }
       }

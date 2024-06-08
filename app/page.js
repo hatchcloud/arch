@@ -38,7 +38,7 @@ export default function Home() {
         <SectionImageHero scrollYProgress={scrollYProgress} />
         <SectionSecond scrollYProgress={scrollYProgress} />
       </section>
-      <section ref={menuContainer} className="h-[100vh] w-full">
+      <section ref={menuContainer} className="h-fit min-h-[100vh] w-full">
       <SectionServices />
       </section>
     </main>

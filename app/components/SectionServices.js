@@ -1,6 +1,6 @@
 import ServiceText from './ServiceText'
 import Image from 'next/image'
-import Place from '../../public/projects/playa.jpg'
+import Place from '../../public/projects/cuarto.png'
 import { useState } from 'react'
 
 const Services =[

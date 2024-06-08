@@ -7,6 +7,7 @@ const SectionSecond = ({scrollYProgress}) => {
        
    
         <AnimateText />
+        
 
       </div>
     )

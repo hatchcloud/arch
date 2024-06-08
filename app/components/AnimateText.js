@@ -10,9 +10,9 @@ const AnimateText = () => {
       }) 
     return (
        <section ref={animateText} className="h-[100vh] w-full overflow-hidden flex flex-col items-center justify-center">
-           <Slide text={'Studio Costa Rica Base'} left={'-55%'} progress={scrollYProgress} direction={'left'}  />
+           <Slide text={'Studio Costa Rica Base'} left={'-35%'} progress={scrollYProgress} direction={'left'}  />
            <Slide text={'Architecture & Design'} left={'-15%'} progress={scrollYProgress} direction={'right'} />
-           <Slide text={'Interior Design'} left={'-35%'} progress={scrollYProgress} direction={'left'} />
+           <Slide text={'Interior Design'} left={'-45%'} progress={scrollYProgress} direction={'left'} />
       </section>
     )
 }

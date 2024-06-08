@@ -6,6 +6,7 @@ import Lenis from 'lenis'
 import SectionImageHero from "./components/SectionImageHero";
 import SectionSecond from "./components/SectionSecond";
 import MenuCompact from "./components/MenuCompact";
+import SectionServices from "./components/SectionServices";
 
 export default function Home() {
   const menuContainer = useRef(null);
@@ -38,7 +39,7 @@ export default function Home() {
         <SectionSecond scrollYProgress={scrollYProgress} />
       </section>
       <section ref={menuContainer} className="h-[100vh] w-full">
-      
+      <SectionServices />
       </section>
     </main>
   );

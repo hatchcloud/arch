@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import Link from "next/link";
-import HeroImg from '../../public/projects/pixelcut-export.jpeg'
+import HeroImg from '../../public/projects/imagen-hero.jpg'
 import Logo from '../../public/icon-complete.svg'
 import { useTransform, motion } from "framer-motion";
 
@@ -31,9 +31,9 @@ const SectionImageHero = ({scrollYProgress}) => {
                     />
                 </Link>
 
-                <ul className=" text-base md:text-xl text-[#0156cf] font-medium flex gap-0 md:gap-6 rounded-lg px-2 h-fit">
+                <ul className=" text-base md:text-xl text-[#F5F4F4] font-medium flex gap-0 md:gap-6 rounded-lg px-2 h-fit">
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/20 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Services</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Services</div>
                     </button>
@@ -41,13 +41,13 @@ const SectionImageHero = ({scrollYProgress}) => {
  */}                        
                     </li>
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/20 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Projects</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Projects</div>
                     </button>
                     </li>
                     <li>
-                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/50 px-2   duration-500">
+                    <button class="group uppercase relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md hover:bg-stone-50/20 px-2   duration-500">
                         <div class="translate-y-0 transition group-hover:-translate-y-[150%]">Contact</div>
                         <div class="absolute translate-y-[150%] transition group-hover:translate-y-0">Contact</div>
                     </button>
